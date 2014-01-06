@@ -1,0 +1,150 @@
+# depslib dependency file v1.0
+1388255939 source:/home/xkaying/桌面/cshine/misaka/misaka.c
+	"misaka.h"
+	"stdlib.h"
+	"assert.h"
+	"gate/gate.h"
+	"misakaconfig.h"
+
+1388254262 /home/xkaying/桌面/cshine/misaka/misaka.h
+	"stdint.h"
+
+1388251788 source:/home/xkaying/桌面/cshine/misaka/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1388480828 source:/home/xkaying/桌面/cshine/misaka/gate/gate.c
+	"gate.h"
+	"../wrapper/wrapper.h"
+	<assert.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/epoll.h>
+	<arpa/inet.h>
+
+1388254794 /home/xkaying/桌面/cshine/misaka/gate/gate.h
+	"gateconfig.h"
+	<stdint.h>
+
+1388460591 /home/xkaying/桌面/cshine/misaka/gate/gateconfig.h
+	"../misakaconfig.h"
+	<stdint.h>
+
+1388256079 source:/home/xkaying/桌面/cshine/misaka/gate/gateconfig.c
+	"gateconfig.h"
+
+1388255910 /home/xkaying/桌面/cshine/misaka/misakaconfig.h
+
+1388480800 source:/home/xkaying/桌面/cshine/misaka/event/event.c
+	"event.h"
+	"stdint.h"
+	"../gate/console.h"
+
+1388459468 /home/xkaying/桌面/cshine/misaka/event/event.h
+
+1388459314 source:/home/xkaying/桌面/cshine/misaka/event/eventpool.c
+	"eventpool.h"
+	<stdlib.h>
+	<assert.h>
+
+1388459278 /home/xkaying/桌面/cshine/misaka/event/eventpool.h
+	<stdint.h>
+	"event.h"
+
+1388480757 /home/xkaying/桌面/cshine/misaka/gate/console.h
+	<stdint.h>
+
+1388480479 source:/home/xkaying/桌面/cshine/misaka/gate/console.c
+	"console.h"
+
+1388480773 source:/home/xkaying/桌面/cshine/misaka/gate/consolepool.c
+	"consolepool.h"
+	"console.h"
+	<stdlib.h>
+	<assert.h>
+
+1388480739 /home/xkaying/桌面/cshine/misaka/gate/consolepool.h
+	"console.h"
+
+1388480838 /home/xkaying/桌面/cshine/misaka/wrapper/wrapper.h
+	"../event/event.h"
+	<stdint.h>
+
+1388480896 source:/home/xkaying/桌面/cshine/misaka/wrapper/wrapper.c
+	"wrapper.h"
+
+1388480800 source:/home/xkaying/桌面/misaka/misaka/event/event.c
+	"event.h"
+	"stdint.h"
+	"../gate/console.h"
+
+1388459468 /home/xkaying/桌面/misaka/misaka/event/event.h
+
+1388940742 /home/xkaying/桌面/misaka/misaka/gate/console.h
+	<stdint.h>
+
+1388459314 source:/home/xkaying/桌面/misaka/misaka/event/eventpool.c
+	"eventpool.h"
+	<stdlib.h>
+	<assert.h>
+
+1388459278 /home/xkaying/桌面/misaka/misaka/event/eventpool.h
+	<stdint.h>
+	"event.h"
+
+1388480479 source:/home/xkaying/桌面/misaka/misaka/gate/console.c
+	"console.h"
+
+1388256079 source:/home/xkaying/桌面/misaka/misaka/gate/gateconfig.c
+	"gateconfig.h"
+
+1388460591 /home/xkaying/桌面/misaka/misaka/gate/gateconfig.h
+	"../misakaconfig.h"
+	<stdint.h>
+
+1388255910 /home/xkaying/桌面/misaka/misaka/misakaconfig.h
+
+1388251788 source:/home/xkaying/桌面/misaka/misaka/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1388941200 source:/home/xkaying/桌面/misaka/misaka/misaka.c
+	"misaka.h"
+	"stdlib.h"
+	"assert.h"
+	"gate/gate.h"
+	"misakaconfig.h"
+
+1388254262 /home/xkaying/桌面/misaka/misaka/misaka.h
+	"stdint.h"
+
+1388941186 /home/xkaying/桌面/misaka/misaka/gate/gate.h
+	"gateconfig.h"
+	"../wrapper/wrapper.h"
+	<stdint.h>
+
+1388480896 source:/home/xkaying/桌面/misaka/misaka/wrapper/wrapper.c
+	"wrapper.h"
+
+1388941157 /home/xkaying/桌面/misaka/misaka/wrapper/wrapper.h
+	"../event/event.h"
+	<stdint.h>
+
+1388940596 source:/home/xkaying/桌面/misaka/misaka/gate/consolepool.c
+	"consolepool.h"
+	"console.h"
+	<stdlib.h>
+	<assert.h>
+
+1388938994 /home/xkaying/桌面/misaka/misaka/gate/consolepool.h
+
+1388941100 source:/home/xkaying/桌面/misaka/misaka/gate/gate.c
+	"gate.h"
+	"../wrapper/wrapper.h"
+	"consolepool.h"
+	<assert.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/epoll.h>
+	<arpa/inet.h>
+

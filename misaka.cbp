@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="misaka" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/misaka" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-std=c99" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/misaka" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="event/event.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="event/event.h" />
+		<Unit filename="event/eventpool.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="event/eventpool.h" />
+		<Unit filename="gate/console.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gate/console.h" />
+		<Unit filename="gate/consolepool.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gate/consolepool.h" />
+		<Unit filename="gate/gate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gate/gate.h" />
+		<Unit filename="gate/gateconfig.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gate/gateconfig.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="misaka.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="misaka.h" />
+		<Unit filename="misakaconfig.h" />
+		<Unit filename="wrapper/wrapper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="wrapper/wrapper.h" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
